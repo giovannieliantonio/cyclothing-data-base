@@ -2,10 +2,9 @@
 
 Repositorio con el material, scripts SQL y trabajos de la asignatura **Base de Datos**.
 
-- **Estudiante:** Giovanni Eliantonio
-- **Correo:** giovanni.eliantonio@userena.cl
-- **Motor de Base de Datos:** PostgreSQL
-- **Período:** _(completar, ej. 2026-1)_
+- **Estudiantes:** Agustín Aravena, Vicente Alucema, Giovanni Eliantonio, Jurgen Fritz y Kevin Pavéz
+
+- **Período:** Segundo semestre 2026
 
 ---
 
@@ -77,17 +76,3 @@ psql -U postgres -d universidad_db -f scripts/04_queries.sql
     └── tarea01/
         └── README.md
 ```
-
----
-
-## Convenciones de trabajo
-
-- **Commits** en formato `tipo: descripción corta` (ej. `feat: agregar consultas de agregación`).
-- Tipos sugeridos: `feat`, `fix`, `docs`, `sql`, `refactor`, `test`.
-- Un laboratorio o tarea = **un commit significativo como mínimo**.
-
----
-
-## Licencia
-
-Material con fines académicos.

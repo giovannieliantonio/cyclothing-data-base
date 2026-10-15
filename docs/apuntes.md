@@ -1,13 +1,10 @@
 # Apuntes — Base de Datos
 
-Notas de clases organizadas por unidad. Editar libremente.
-
 ## Unidad 1 — Introducción
 
-- Conceptos: dato, información, base de datos, SGBD.
+- Conceptos: dato, información, base de datos.
 - Modelos de datos: relacional, jerárquico, de red, orientado a objetos.
 - Ventajas de un SGBD frente a archivos planos.
-- **Pendiente:** agregar definiciones propias.
 
 ## Unidad 2 — Modelo Entidad-Relación
 
@@ -30,20 +27,6 @@ Notas de clases organizadas por unidad. Editar libremente.
 - **DQL:** `SELECT` con `WHERE`, `JOIN`, `GROUP BY`, `HAVING`, `ORDER BY`.
 - Funciones de agregación: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
 - Subconsultas, CTEs y funciones de ventana.
-
-## Unidad 5 — Transacciones
-
-- Propiedades ACID.
-- `BEGIN`, `COMMIT`, `ROLLBACK`.
-- Niveles de aislamiento.
-
-## Unidad 6 — Temas avanzados
-
-- Índices y planes de ejecución.
-- Vistas y procedimientos almacenados.
-- Triggers.
-
----
 
 ## Comandos útiles de `psql`
 
