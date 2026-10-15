@@ -1,0 +1,19 @@
+# Normaliza los finales de línea a LF en el repositorio (evita los warnings de CRLF/LF en Windows)
+* text=auto eol=lf
+
+# Binarios (no tocar)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.xlsx binary
+*.docx binary
+
+# Scripts SQL y Markdown: siempre con LF
+*.sql  text eol=lf
+*.md   text eol=lf
+
+# Archivos de Git
+.gitattributes text eol=lf
+.gitignore     text eol=lf
