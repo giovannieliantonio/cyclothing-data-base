@@ -1,0 +1,38 @@
+# ===== PostgreSQL: datos y volcados locales =====
+*.dump
+*.backup
+*.sql.gz
+data/
+pgdata/
+
+# ===== Credenciales y secretos (NUNCA subir) =====
+.env
+*.env
+.pgpass
+pgpass.conf
+secrets/
+*.pem
+
+# ===== Logs de PostgreSQL =====
+*.log
+postgresql.log
+pg_log/
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editores / IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Entornos virtuales / dependencias =====
+venv/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
