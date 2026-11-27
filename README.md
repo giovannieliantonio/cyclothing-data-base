@@ -13,9 +13,7 @@ Repositorio con el material, scripts SQL y trabajos de la asignatura **Base de D
 | Carpeta | Descripción |
 |---|---|
 | `scripts/` | Scripts SQL ordenados: creación de BD, esquema, datos y consultas |
-| `docs/` | Apuntes, modelo entidad-relación y documentación |
-| `laboratorios/` | Laboratorios prácticos de cada semana |
-| `tareas/` | Tareas y trabajos evaluados |
+| `docs/` | Apuntes, modelo entidad-relación y documentación
 
 ---
 
